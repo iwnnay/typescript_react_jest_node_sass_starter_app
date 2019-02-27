@@ -7,7 +7,7 @@ const path = require('path');
 const server = require('./server.js');
 const config = require('./webpack.config');
 
-Object.assign(process.env, { HOST: '0.0.0.0', PORT: 3100 });
+Object.assign(process.env, { HOST: config.devSerer.host, PORT: config.devServer.port });
 const compiler = webpack(config);
 const app = express();
 
