@@ -66,10 +66,5 @@
   ],
   "author": "Joe Imhoff",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iwnnay/typescript_react_jest_node_sass_starter_app.git/issues"
-
-  },
-  "homepage": "https://github.com/iwnnay/typescript_react_jest_node_sass_starter_app.git#readme",
   "private": false
 }
